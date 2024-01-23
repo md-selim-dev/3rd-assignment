@@ -142,7 +142,7 @@
       </div>
       <!-- Banner section end -->   
 
-      
+
     </header>
     <!-- 🅷🅴🅰🅳🅴🆁 🆂🅴🅲🆃🅸🅾🅽 🅴🅽🅳 -->
     <!-- 【=】【=】【=】【=】【=】【=】【=】【=】【=】【=】【=】 -->
@@ -566,7 +566,7 @@
 
 
       <!-- Get in Touch section Start -->
-      <section>
+      <section class="my-20 box-border">
         <div class="border-y-4 border-dashed mb-12 pt-8">
           <div class="md:w-4/6 lg:w-1/2 mx-auto text-center mb-10">
             <h3 class="text-3xl font-extrabold leading-10 mb-3">
@@ -579,34 +579,78 @@
           </div>
         </div>
         <!-- Form Section -->
-        <div class="  ">
-          <div class="hero-content flex-col lg:flex-row justify-between" >
-            <!-- contact section -->
-            <div class="border-2">
-              <div class="bg-[#BCED6D1A] w-32">
-                <img class="mb-4" src="Images/call.png" alt="">
-                <p class="leading-6">Phone Number :</p> 
-                <p>(+62) 123-321-543</p>
+          <div class="flex flex-col md:flex-col lg:flex-row justify-between gap-10" >
+            <!--form contact section -->
+            <div class="border-4 box-border rounded-xl w-full lg:lg:w-2/5">
+              <div class="p-6 flex flex-col gap-4 w-full">
+                <div class="bg-[#BCED6D1A] p-9 rounded-xl">
+                  <img class="mb-4" src="Images/call.png" alt="">
+                  <p class="leading-6">Phone Number :</p> 
+                  <p>(+62) 123-321-543</p>
+                </div>
+                <div class="bg-[#BCED6D1A] p-9 rounded-xl">
+                  <img class="mb-4" src="Images/call.png" alt="">
+                  <p class="leading-6">Phone Number :</p> 
+                  <p>(+62) 123-321-543</p>
+                </div>
+                <div class="bg-[#BCED6D1A] p-9 rounded-xl">
+                  <img class="mb-4" src="Images/call.png" alt="">
+                  <p class="leading-6">Phone Number :</p> 
+                  <p>(+62) 123-321-543</p>
+                </div>
               </div>
-              <div class="bg-[#BCED6D1A]">
-                <img class="mb-4" src="Images/call.png" alt="">
-                <p class="leading-6">Phone Number :</p> 
-                <p>(+62) 123-321-543</p>
-              </div>
-              <div class="bg-[#BCED6D1A]">
-                <img class="mb-4" src="Images/call.png" alt="">
-                <p class="leading-6">Phone Number :</p> 
-                <p>(+62) 123-321-543</p>
-              </div>
-              
             </div>
             <!-- Message section -->
-            <div class="">
-              <button class="btn btn-primary">Get Started</button>
+            <div class="w-full lg:w-3/5 grid items-stretch">
+              <!-- name & email -->
+              <div class="flex flex-col lg:flex-row justify-between gap-14">
+                <div class="w-full lg:w-1/2">
+                <label class="block text-[#131318] font-bold text-xl mb-4" for="name">Your Name</label>
+                <input class="w-full lg:w-3/4 bg-[#16161b08] text-[#1313184d] p-3 rounded-xl focus:outline-gray-200 outline-none" type="text" placeholder="Enter your full name">
+                </div>
+                <div class="w-full lg:w-1/2">
+                <label class="block text-[#131318] font-bold text-xl mb-4" for="name">Your Email</label>
+                <input class="w-full lg:w-3/4 bg-[#16161b08] text-[#1313184d] p-3 rounded-xl focus:outline-gray-200 outline-none" type="text" placeholder="Enter your email">
+                </div>
+              </div>
+              <!-- subject & phone number -->
+              <div class="flex flex-col lg:flex-row justify-between gap-14">
+                <div class="w-full lg:w-1/2 mt-14">
+                <label class="block text-[#131318] font-bold text-xl mb-4" for="name">Subject</label>
+                <input class="w-full lg:w-3/4 bg-[#16161b08] text-[#1313184d] p-3 rounded-xl focus:outline-gray-200 outline-none" type="text" placeholder="Enter your subject">
+                </div>
+                <div class="w-full lg:w-1/2">
+                <label class="block text-[#131318] font-bold text-xl mb-4" for="name">Phone Number</label>
+                <input class="w-full lg:w-3/4 bg-[#16161b08] text-[#1313184d] p-3 rounded-xl focus:outline-gray-200 outline-none" type="text" placeholder="Enter your phone number">
+                </div>
+              </div>
+              <!-- Write your message -->
+              <div class="flex justify-between gap-14">
+                <div class="w-full mt-14">
+                <label class="block text-[#131318] font-bold text-xl mb-4" for="name">Message</label>
+                <textarea class="w-full bg-[#16161b08] text-[#1313184d] p-3 rounded-xl focus:outline-gray-200 outline-none" name="message" id="" cols="30" rows="10">Write your message</textarea>
+                </div>
+              </div>
+              <!-- button area -->
+              <div>
+                <button class="btn bg-[#FF4240] hover:bg-red-600 w-full text-xl text-white">Send Message</button>
+              </div>
+            </div>  
+          </div>
+
+          <!-- Social media section -->
+          <div class="my-14 bg-[#16161b08] p-10 rounded-xl">
+            <div class="w-fit mx-auto">
+              <h2 class="text-[#131318] font-extrabold text-xl text-center mb-6 ">Social Media</h2>
+              <ul class="flex gap-6">
+                <li><i class="fa-brands fa-twitter"></i></li>
+                <li><i class="fa-brands fa-facebook-f"></i></li>
+                <li><i class="fa-brands fa-instagram"></i></li>
+                <li><i class="fa-brands fa-github"></i></i></li>
+              </ul>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
       <!-- Get in Touch section end -->
     </main>
 
