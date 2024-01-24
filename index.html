@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hockey Club</title>
-    <!-- ✶ 🎀 𝒯𝒶𝒾𝓁𝓌𝒾𝓃𝒹 𝒶𝓃𝒹 𝒟𝒶𝒾𝓈𝓎𝒰𝐼 𝒞𝒟𝒩 🎀✶ -->
+    <!-- ✶  𝒯𝒶𝒾𝓁𝓌𝒾𝓃𝒹 𝒶𝓃𝒹 𝒟𝒶𝒾𝓈𝓎𝒰𝐼 𝒞𝒟𝒩 ✶ -->
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css"
       rel="stylesheet"
       type="text/css"
     />
     <script src="https://cdn.tailwindcss.com"></script>
-    <!--  🎀  𝒢🏵O𝑔𝓁𝑒 𝒻❀𝓃𝓉 𝑀𝒶𝓃𝓇❤𝓅𝑒  🎀-->
+    <!--  𝒢🏵O𝑔𝓁𝑒 𝒻❀𝓃𝓉 𝑀𝒶𝓃𝓇❤𝓅𝑒 -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -39,12 +39,9 @@
       }
     </style>
   </head>
-  
-  <body class="font-[Manrope]">
     <!-- 【=】【=】【=】【=】【=】【=】【=】【=】【=】【=】【=】 -->
-    <!-- ⋆ ❝𝐇𝐞𝐚𝐝𝐞𝐫 𝐒𝐞𝐜𝐭𝐢𝐨𝐧 𝐒𝐭𝐚𝐫𝐭❞  -->
-
-
+  <body class="font-[Manrope]">
+    <!-- ⋆ 𝐇𝐞𝐚𝐝𝐞𝐫 𝐒𝐞𝐜𝐭𝐢𝐨𝐧 𝐒𝐭𝐚𝐫𝐭  -->
     <header class="mx-8 mt-8 lg:mx-28 lg:mt-12">
       <!-- NavBar Section Start -->
       <nav class="flex justify-center items-center">
@@ -114,12 +111,11 @@
           </div>
         </div>
       </nav>
-
       <!-- NavBar Section End -->
+
       <!-- Banner section start -->
-      <!-- slide not work ~~~~~~~~~~~~~~~~~~~~~~~~~-->
-      <div class="banner my-10">
-        <div class="carousel w-full">
+      <div class="banner my-10 relative">
+        <div class="carousel w-full mb-4">
           <div id="slide1" class="carousel-item relative w-full">
             <img src="Images/cup.png" class="w-full" />
             <div
@@ -139,16 +135,16 @@
             </div>
           </div>
         </div>
+        <div class="text-white bg-black p-6 w-full rounded-lg lg:w-2/5 lg:absolute bottom-12 right-8">
+          <h3 class="font-extrabold text-xl mb-3">Meet all the heroes from the field</h3>
+          <p class="text-[#ffffff99]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+        </div>
       </div>
       <!-- Banner section end -->   
-
-
     </header>
-    <!-- 🅷🅴🅰🅳🅴🆁 🆂🅴🅲🆃🅸🅾🅽 🅴🅽🅳 -->
+    <!-- 𝐇𝐞𝐚𝐝𝐞𝐫 𝐒𝐞𝐜𝐭𝐢𝐨𝐧 end -->
     <!-- 【=】【=】【=】【=】【=】【=】【=】【=】【=】【=】【=】 -->
     <!-- Main Section Start -->
-
-
     <main class="mx-8 mt-8 lg:mx-28 lg:mt-12">
       <!-- Professional Hockey Club Section Start -->
       <section class="my-8">
@@ -209,7 +205,6 @@
       </section>
       <!-- Professional Hockey Club Section End -->
 
-
       <!-- Program Sections start -->
       <section class="my-10">
         <!-- program content -->
@@ -227,7 +222,7 @@
         <!-- program image -->
          <!-- First row -->
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 text-white">
-        <div class="w-full h-80 flex-1 bg-no-repeat p-8 bg-cover"
+        <div class="w-full md:h-96 lg:h-80 flex-1 bg-no-repeat p-8 bg-cover"
           style="background-image: url(Images/hockey-stick.png); background-size: 100% 100%;">
           <h2 class="font-extrabold text-2xl py-6">Junior Program</h2>
           <p class="leading-6 mb-4 font-semibold">
@@ -237,7 +232,7 @@
           </p>
           <button class="btn bg-[#FF4240] hover:bg-red-600 border-none text-white font-bold text-2xl">Register Now!</button>
         </div>
-        <div class="w-full h-80 flex-1 bg-no-repeat bg-blend-soft-light p-8 bg-cover" 
+        <div class="w-full md:h-96 lg:h-80 flex-1 bg-no-repeat bg-blend-soft-light p-8 bg-cover" 
           style="background-image: url(Images/hockey-stick2.png); background-size: 100% 100%;"> 
           <h2 class="font-extrabold text-2xl py-6">Teenager Program</h2>
           <p class="leading-6 mb-4 font-semibold">
@@ -250,7 +245,7 @@
       </div>
      
       <!-- 2nd Row -->
-        <div class="w-full h-80 lg:h-96 flex-1 bg-no-repeat bg-blend-soft-light p-8 bg-cover text-white mt-10" 
+        <div class="w-full md:h-96 lg:h-96 flex-1 bg-no-repeat bg-blend-soft-light p-8 bg-cover text-white mt-10" 
           style="background-image: url(Images/player.png); background-size: 100% 100%; border-radius: 25px;"> 
           <div class="lg:w-1/2 justify-center">
             <h2 class="font-extrabold text-2xl py-6 lg:py-10">Professional Program</h2>
@@ -473,7 +468,6 @@
       </section>
       <!-- New Product section End -->
 
-
       <!-- Client Question Section start -->
       <section class="my-8">
         <div class="border-y-4 border-dashed mb-12 pt-8">
@@ -490,7 +484,7 @@
         <!--Client FAQ section -->
         <div class="hero p-4 border-2 rounded-xl flex-col lg:flex-row">
           <div class="hero-content flex-col lg:flex-row">
-            <img src="Images/question-banner.png" class="max-w-xs rounded-lg shadow-xl" />
+            <img src="Images/question-banner.png" class="lg:max-w-xl lg:max-w-xl rounded-lg shadow-xl" />
             <div>
               <div class="collapse collapse-plus bg-base-100">
                 <input type="radio" name="my-accordion-3" checked="checked" /> 
@@ -552,7 +546,6 @@
       </section>
       <!-- Client Question Section End -->
 
-
       <!-- Get in Touch section Start -->
       <section class="my-20 box-border">
         <div class="border-y-4 border-dashed mb-12 pt-8">
@@ -569,7 +562,7 @@
         <!-- Form Section -->
           <div class="flex flex-col md:flex-col lg:flex-row justify-between gap-10" >
             <!--form contact section -->
-            <div class="border-2 box-border rounded-xl w-full lg:lg:w-2/5">
+            <div class="border box-border rounded-xl w-full lg:lg:w-2/5 shadow-sm">
               <div class="p-6 flex flex-col gap-4 w-full">
                 <div class="bg-[#6daded1a] p-9 rounded-xl">
                   <img class="mb-4" src="Images/call.png" alt="">
@@ -589,7 +582,7 @@
               </div>
             </div>
             <!-- Message section -->
-            <div class="w-full lg:w-3/5 grid">
+            <div class="w-full lg:w-3/5 grid border rounded-xl box-border p-4 shadow-sm">
               <!-- name & email -->
               <div class="w-full flex gap-8 flex-col lg:flex-row justify-between">
                 <div class="w-full ">
@@ -627,7 +620,7 @@
           </div>
 
           <!-- Social media section -->
-          <div class="my-14 bg-[#16161b08] p-10 rounded-xl">
+          <div class="my-14 bg-[#c3b7c038] p-10 rounded-xl">
             <div class="w-fit mx-auto">
               <h2 class="text-[#131318] font-extrabold text-xl text-center mb-6 ">Social Media</h2>
               <ul class="flex gap-6">
@@ -641,7 +634,6 @@
         </section>
       <!-- Get in Touch section end -->
     </main>
-
 
     <!-- Main Section End -->
     <!-- 【=】【=】【=】【=】【=】【=】【=】【=】【=】【=】【=】 -->
